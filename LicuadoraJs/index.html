@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Licuadora Js</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="blender" class="blender">
+            <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
+        </div>
+    </div>
+</body>
+<audio id="blender-button-sound" src="/sounds/sound_botonLicuadora.mp3" type="audio/mpeg"></audio>
+<audio id="blender-sound" src="/sounds/sound_licuadora.mp3" type="audio/mpeg" loop></audio>
+<!-- Se agrega un id para llamarlo desde el Js por id, y se agrega type para que lo reconozca,
+ tambien se agrega la propiedad loop para que el sonido se reproduzca en loop-->
+<script src="/Js/motorcito.js"></script>
+
+</html>
